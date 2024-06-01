@@ -23,7 +23,7 @@ spec:
       containers:
         - name: java
           #image: <account-id>.dkr.ecr.<region>.amazonaws.com/<repository-name>:<tag>
-          image: 471112703051.dkr.ecr.ap-south-1.amazonaws.com/java-application:10
+          image: 471112703051.dkr.ecr.ap-south-1.amazonaws.com/java-application:7
           ports:
             - containerPort: 8080
 
